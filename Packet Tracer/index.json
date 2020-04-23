@@ -14,6 +14,13 @@
     "intro": {
       "text": "intro.md"
     },
+    "assets": {
+      "client": [
+        {
+          "file": "run_pt.sh",
+          "target": "~/"
+        }
+      ]
     "finish": {
       "text": "finish.md"
     }
