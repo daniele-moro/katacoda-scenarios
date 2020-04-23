@@ -14,7 +14,7 @@
       "text": "intro.md"
     },
     "assets": {
-      "host01": [
+      "client": [
         {
           "file": "run_pt.sh",
           "target": "~/"
