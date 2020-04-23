@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Setup ambiente",
         "text": "step1.md"
+      },
+      {
+        "title": "Step 1",
+        "text": "step2.md"
       }
     ],
     "intro": {
