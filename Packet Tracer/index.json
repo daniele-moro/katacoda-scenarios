@@ -1,8 +1,8 @@
 {
-  "title": "prova",
+  "title": "Packet Tracer",
   "description": "",
   "difficulty": "Beginner",
-  "time": "10",
+  "time": "360",
   "details": {
     "steps": [
       {
@@ -18,9 +18,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "docker",
+    "port": 6901
   }
 }
