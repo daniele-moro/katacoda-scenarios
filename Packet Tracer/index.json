@@ -11,17 +11,20 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "docker run -d -p 6901:6901 dmoro92/ubuntu-vnc-pt:latest"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "showdashboard": true,
+    "dashboards": [{"name": "Display Packet Tracer", "port": 6901}]
   },
   "backend": {
     "imageid": "docker",
     "port": 6901
-  }
+  },
+
 }
