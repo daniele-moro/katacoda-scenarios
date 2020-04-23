@@ -21,7 +21,7 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboards": [{"name": "Display Packet Tracer", "port": 6901}]
+    "dashboard": "Display Packet Tracer"
   },
   "backend": {
     "imageid": "docker",
