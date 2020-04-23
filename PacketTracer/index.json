@@ -32,7 +32,7 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboards": [{"name": "Packet Tracer", "port": 6901},
+    "dashboards": [{"name": "Packet Tracer", "port": 6901}]
   },
   "backend": {
     "imageid": "docker",
