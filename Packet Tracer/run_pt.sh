@@ -1,0 +1,1 @@
+docker run -d -p 6901:6901 dmoro92/ubuntu-vnc-pt:latest
