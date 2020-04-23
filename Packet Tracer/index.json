@@ -26,6 +26,5 @@
   "backend": {
     "imageid": "docker",
     "port": 6901
-  },
-
+  }
 }
