@@ -7,15 +7,14 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "courseData": "run_pt.sh"
+        "text": "step1.md"
       }
     ],
     "intro": {
       "text": "intro.md"
     },
     "assets": {
-      "client": [
+      "host01": [
         {
           "file": "run_pt.sh",
           "target": "~/"
@@ -29,7 +28,7 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboard": "Display Packet Tracer"
+    "dashboard": "Packet Tracer"
   },
   "backend": {
     "imageid": "docker",
