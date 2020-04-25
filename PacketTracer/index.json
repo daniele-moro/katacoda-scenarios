@@ -15,23 +15,23 @@
       },
       {
         "title": "Router",
-        "text": "step2.md"
-      },
-      {
-        "title": "Mduli",
         "text": "step3.md"
       },
       {
-        "title": "Link",
+        "title": "Moduli",
         "text": "step4.md"
       },
       {
-        "title": "Indirizzi IP",
+        "title": "Link",
         "text": "step5.md"
       },
       {
-        "title": "Simulazione",
+        "title": "Indirizzi IP",
         "text": "step6.md"
+      },
+      {
+        "title": "Simulazione",
+        "text": "step7.md"
       }
     ],
     "intro": {
