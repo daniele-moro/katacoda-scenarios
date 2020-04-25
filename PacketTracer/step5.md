@@ -1,13 +1,11 @@
-A questo punto siamo pronti a configurare gli indirizzi IP che si troveranno in due reti distinte:
-
-* Collegamento Fiber Ethernet (Router 2-Router 0)​: 10.0.0.0/8, mask 255.0.0.0 ​
-* Collegamento Seriale (Router 2-Router 0)​: 11.0.0.0/8, mask  255.0.0.0 (Settare il clock)​
+Ora aggiungiamo i link tra i router, il link tra `Router2` e `Router0` è un link Fiber Ethernet
+mentre il link tra `Router0` e `Router1` è di tipo seriale.
 
 ![Topo4-1](https://github.com/daniele-moro/katacoda-scenarios/raw/master/PacketTracer/images/es4.1.png)
 
-Andiamo nel pannello *Config* di ogni router ed effettuiamo la configurazione delle interfacce.
-In figura un esempio di configurazione dell'interfaccia Seriale del `Router0`.
+Per farlo andiamo nella sezione connections e selezioniamo le connessioni necessarie.
+Nell'immagine è evidenziata in verde la connessione in Fibra e in azzurro la connessione Seriale.
 
-> N.B.: configurare il clock dell'interfaccia DCE della connessione seriale
+![links](https://github.com/daniele-moro/katacoda-scenarios/raw/master/PacketTracer/images/links.png)
 
-![indirizzi](https://github.com/daniele-moro/katacoda-scenarios/raw/master/PacketTracer/images/indirizzi.png)
+> TODO: aggiugnere spiegazione DCE/DTE? Altrimenti vedi slides.
