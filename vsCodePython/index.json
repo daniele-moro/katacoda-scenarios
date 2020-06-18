@@ -1,0 +1,29 @@
+{
+  "title": "VSCode Python",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "360",
+  "details": {
+    "steps": [
+      {
+        "title": "Setup ambiente",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [{"name": "VsCode", "port": 23000}]
+  },
+  "backend": {
+    "imageid": "ubuntu:1804",
+    "port": 23000
+  }
+}
