@@ -1,29 +1,25 @@
 {
-  "title": "VSCode Python",
-  "description": "",
-  "difficulty": "Beginner",
-  "time": "360",
-  "details": {
-    "steps": [
-      {
-        "title": "Setup ambiente",
-        "text": "step1.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md"
+    "noindex": true,
+    "title": "Scenario with Terminal and VS code UI",
+    "description": "Katacoda Scenario Example",
+    "details": {
+        "steps": [
+            {
+                "title": "",
+                "text": "step1.md"
+            }
+        ]
     },
-    "finish": {
-      "text": "finish.md"
+    "files": [
+        "app.js", "index.js"
+    ],
+    "environment": {
+        "uieditorpath": "/root/example",
+        "showide": true,
+        "idePort": 23000,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
     }
-  },
-  "environment": {
-    "uilayout": "terminal-iframe",
-    "showdashboard": true,
-    "dashboards": [{"name": "VsCode", "port": 23000}]
-  },
-  "backend": {
-    "imageid": "ubuntu:1804",
-    "port": 23000
-  }
 }
